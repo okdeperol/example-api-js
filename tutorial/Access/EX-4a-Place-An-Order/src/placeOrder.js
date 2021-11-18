@@ -1,4 +1,4 @@
-import { tvPost } from '../../EX-3-Time-Penalty/src/services'
+import { tvPost } from '../../EX-4a-Place-An-Order/src/services'
 import { getAvailableAccounts, getAccessToken } from './storage'
 
 export const ORDER_TYPE = {
