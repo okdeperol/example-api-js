@@ -14,7 +14,7 @@ const main = async () => {
     const ws = new WebSocket(URLs.WS_DEMO_URL)
     let curTime = new Date()
 
-    ws.onmessage = msg => {
+    ws.ws.onmessage = msg => {
 
         const now = new Date()
 
